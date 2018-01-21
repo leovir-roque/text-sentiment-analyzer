@@ -1,0 +1,15 @@
+:root {
+    --primary-color-light: #00d5fb;
+    --primary-color: #005fb2;
+    --primary-color-dark: #074882;
+
+    --mono-color-lightest: #fff;
+    --mono-color-xlight: #f5f7f9;
+    --mono-color-light: #dedede;
+    --mono-color-dark: #2b3340;
+    --mono-color-darkest: #000;
+
+    --background-color: var(--mono-color-lightest);
+
+    --copy-color: var(--mono-color-dark);
+}
