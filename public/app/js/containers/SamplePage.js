@@ -4,7 +4,7 @@ import { Analyzer } from '../components/Analyzer';
 
 const SamplePage = () => (
     <div>
-        <Analyzer title="React Practice" />
+        <Analyzer title="Emotion Analyzer" />
     </div>
 );
 

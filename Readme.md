@@ -1,14 +1,7 @@
-# Webpack + React + PostCSS boilerplate
-Boilerplate for webpack + react + postcss with sample codes.
+# Text sentiment Analyzer
+Analyze emotion of user's text input using IBM's Watson Natural Language Understanding and ReactJS
 
-#### What's in here?
-- Node
-- Express
-- Handlebars
-- Webpack
-- PostCSS
-- ReactJS
-- Jest
+![Alt text](./public/app/images/demo.gif?raw=true "Title")
 
 #### Pre-requisite
 You will need to install node (https://nodejs.org).
