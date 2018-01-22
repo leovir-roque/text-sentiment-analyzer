@@ -20,6 +20,12 @@ body {
     font-size: var(--font-size);
 }
 
+main {
+    background: var(--background-color-dark);
+    min-height: 100vh;
+    padding-top: 24px;
+}
+
 h1 {
     font-size: 31px;
     font-weight: var(--font-weight-bold);

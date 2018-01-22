@@ -1,15 +1,24 @@
 :root {
+    /* Primary Color */
     --primary-color-light: #00d5fb;
     --primary-color: #005fb2;
     --primary-color-dark: #074882;
 
+    /* Mono Color */
     --mono-color-lightest: #fff;
     --mono-color-xlight: #f5f7f9;
     --mono-color-light: #dedede;
     --mono-color-dark: #2b3340;
     --mono-color-darkest: #000;
 
-    --background-color: var(--mono-color-lightest);
+    /* State Color */
+    --valid-color: #00b66f;
+    --invalid-color: #c50000;
 
+    /* Background Color */
+    --background-color: var(--mono-color-lightest);
+    --background-color-dark: var(--mono-color-xlight);
+
+    /* Copy Color */
     --copy-color: var(--mono-color-dark);
 }

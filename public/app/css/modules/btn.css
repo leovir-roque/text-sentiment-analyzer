@@ -1,0 +1,20 @@
+:root {
+    --btn-bg: var(--primary-color);
+}
+
+.btn {
+    background: var(--btn-bg);
+    border-radius: 4px;
+    border: none;
+    color: var(--mono-color-lightest);
+    cursor: pointer;
+    display: inline-block;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    padding: 12px 15px;
+    transition: all 0.05s linear;
+
+    &:hover {
+        background: color(var(--btn-bg) lightness(40%));
+    }
+}

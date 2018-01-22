@@ -13,7 +13,9 @@
 @import url(./layout/grid.css);
 
 /* Modules */
-@import url(./modules/sample.css);
+@import url(./modules/btn.css);
+@import url(./modules/analyzer.css);
+@import url(./modules/progress.css);
 
 /* Trumps */
 @import url(./trumps/states.css);

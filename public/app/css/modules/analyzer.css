@@ -1,0 +1,41 @@
+.analyzer {
+    background-color: var(--mono-color-lightest);
+    border-radius: 4px;
+    border: 1px solid var(--mono-color-light);
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 540px;
+    padding: 24px;
+    box-shadow: 0 2px 4px 0 color(var(--mono-color-darkest) alpha(10%));
+
+    &__title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    &__textarea {
+        border: 1px solid var(--mono-color-light);
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 16px;
+        min-height: 150px;
+        padding: 12px;
+        width: 100%;
+    }
+
+    &__value {
+        font-size: 19px;
+    }
+
+    &__btn {
+        width: 100%;
+    }
+
+    &__error {
+        color: var(--invalid-color);
+        margin-top: 12px;
+        text-transform: capitalize;
+    }
+}

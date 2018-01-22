@@ -1,0 +1,26 @@
+.progress {
+    align-items: center;
+    display: flex;
+    margin-top: 12px;
+
+    &__bar {
+        background-color: var(--mono-color-light);
+        height: 6px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    &__label {
+        flex: 0 0 70px;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+
+    &__value {
+        background-color: var(--valid-color);
+        border-radius: inherit;
+        height: 100%;
+        transition: all 0.2s linear;
+        width: 0%;
+    }
+}

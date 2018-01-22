@@ -43,7 +43,11 @@
     "react-dom": "^16.1.1",
     "serve-favicon": "~2.4.5",
     "sinon": "^4.1.6",
-    "superagent": "^3.8.1"
+    "superagent": "^3.8.1",
+    "watson-developer-cloud": "^3.0.4"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./setupTest.js"
   },
   "license": "ISC"
 }

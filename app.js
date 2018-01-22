@@ -4,6 +4,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var index = require('./routes/index');
+var emotions = require('./routes/emotions');
+
 var app = express();
 
 var isProduction = process.env.NODE_ENV === 'production';
@@ -23,10 +26,8 @@ app.use(bodyParser.json({limit: '5mb'}));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// routes
-var index = require('./routes/index');
-
 app.use('/', index);
+app.use('/emotions', emotions);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
