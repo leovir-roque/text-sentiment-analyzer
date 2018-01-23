@@ -22,6 +22,7 @@ class Analyzer extends React.Component {
             .send(this.state)
             .then((res) => {
                 const data = JSON.parse(res.text);
+                console.log(res.text);
 
                 this.setState({
                     sentiment: data.emotion.document.emotion,

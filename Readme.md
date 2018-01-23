@@ -1,7 +1,7 @@
 # Text sentiment Analyzer
 Analyze emotion of user's text input using IBM's Watson Natural Language Understanding and ReactJS
 
-![Alt text](./public/app/images/demo.gif?raw=true "Title")
+![Alt text](./public/app/images/demo.gif?raw=true&=250x "Title")
 
 #### Pre-requisite
 You will need to install node (https://nodejs.org).
@@ -12,4 +12,4 @@ You will need to install node (https://nodejs.org).
 3. You can then open your web browser to `http://localhost:{port}`.
 
 ### Unit Test
-This boilerplate is currently using `jest`, simply run `npm test`. A sample test can be found in `/public/app/js/components/SampleComponent.test.js`.
+Run `npm test`
