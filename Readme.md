@@ -1,7 +1,7 @@
 # Text sentiment Analyzer
 Analyze emotion of user's text input using IBM's Watson Natural Language Understanding and ReactJS
 
-![Alt text](./public/app/images/demo.gif?raw=true&=250x "Title")
+<img src="./public/app/images/demo.gif" />
 
 #### Pre-requisite
 You will need to install node (https://nodejs.org).
